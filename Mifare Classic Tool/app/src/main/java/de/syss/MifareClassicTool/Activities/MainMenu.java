@@ -796,6 +796,11 @@ public class MainMenu extends Activity {
         startActivity(intent);
     }
 
+    public void onShowEndianReverseDecimal(View view) {
+        Intent intent = new Intent(this, EndianReverseDecimal.class);
+        startActivity(intent);
+    }
+
     /**
      * Show the about dialog.
      */

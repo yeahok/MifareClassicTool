@@ -198,7 +198,12 @@
             android:icon="@drawable/hex_to_ascii"
             android:label="@string/title_activity_data_conversion_tool" >
         </activity>
-
+        <activity
+            android:name=".Activities.EndianReverseDecimal"
+            android:configChanges="orientation|screenSize"
+            android:icon="@drawable/hex_to_ascii"
+            android:label="@string/title_activity_endian_reverse_decimal" >
+        </activity>
     </application>
 
 </manifest>

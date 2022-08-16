@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textViewMainFooter"
-        android:layout_alignParentTop="true" >
+        android:layout_alignParentTop="true">
 
         <LinearLayout
             android:id="@+id/linearLayoutMainMenu"
@@ -40,12 +40,12 @@
             android:orientation="vertical"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:paddingTop="10dp" >
+            android:paddingTop="10dp">
 
             <LinearLayout
                 android:id="@+id/linearLayoutMainMenuRow1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/buttonMainReadTag"
@@ -72,7 +72,7 @@
             <LinearLayout
                 android:id="@+id/linearLayoutMainMenuRow2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/buttonMainEditCardDump"
@@ -99,7 +99,7 @@
             <LinearLayout
                 android:id="@+id/linearLayoutMainMenuRow3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/buttonMainTools"
@@ -110,7 +110,7 @@
                     android:drawableTop="@drawable/tools"
                     android:onClick="onShowTools"
                     android:text="@string/action_tools" />
-                
+
                 <Button
                     android:id="@+id/buttonMainHelp"
                     style="?android:attr/buttonStyleSmall"
@@ -123,6 +123,19 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/linearLayoutMainMenuRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/buttonEndianReverseDecimal"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/printer_pin"
+                    android:onClick="onShowEndianReverseDecimal"
+                    android:text="@string/action_printer_pin" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
